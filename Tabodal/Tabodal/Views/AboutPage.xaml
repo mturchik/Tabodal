@@ -57,40 +57,7 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Label Text="Terms of Use:" />
-                <Label>
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="-" />
-                                <Span Text=" " />
-                                <Span Text="Don't steal this app and try to sell it" FontAttributes="Bold" />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Label>
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="-" />
-                                <Span Text=" " />
-                                <Span Text="No Cyber bullying" FontAttributes="Bold" />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Label>
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="-" />
-                                <Span Text=" " />
-                                <Span Text="Be honest with your age" FontAttributes="Bold" />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
+                <Button HorizontalOptions="CenterAndExpand" Clicked="Button_OnClicked" Text="View Terms"></Button>
             </StackLayout>
         </ScrollView>
     </Grid>

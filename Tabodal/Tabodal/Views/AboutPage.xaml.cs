@@ -14,5 +14,11 @@ namespace Tabodal.Views
         {
             InitializeComponent();
         }
+
+        private async void Button_OnClicked(object sender, EventArgs e)
+        {
+            var tp = new TermsPage();
+            await Navigation.PushModalAsync(tp);
+        }
     }
 }

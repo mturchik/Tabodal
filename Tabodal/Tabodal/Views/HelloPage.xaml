@@ -21,7 +21,7 @@
                    HorizontalOptions="CenterAndExpand"
                    VerticalOptions="CenterAndExpand" />
 
-            <Label Text="This picture tells you all you need to know about who I am."
+            <Label Text="This picture tells you all you need to know about who I am." 
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand" />
         </StackLayout>
